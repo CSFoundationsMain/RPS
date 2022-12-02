@@ -1,0 +1,63 @@
+/* 
+    primary color:     #453C67
+    secondary color:   #6D67E4
+    tertiary color:    #46C2CB
+    accent color:      #F2F7A1
+    */
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    background-color: #F2F7A1;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+}
+
+header {
+    color: #453C67;
+    padding-bottom: 2rem;
+}
+
+
+.fa-solid {
+    text-align: right;
+    font-size: 5rem;
+    color:  #453C67;
+}
+
+.game {
+    background-color:  #46C2CB;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    color: #F2F7A1;
+}
+
+.intro {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.youSelect, .computer {
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    padding: 1.5rem;
+}
