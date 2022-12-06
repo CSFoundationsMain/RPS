@@ -1,0 +1,54 @@
+/* 
+    primary color:     #2A0944
+    secondary color:   #3FA796
+    tertiary color:    #FEC260
+    accent color:      #A10035
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.control {
+    border: 1px solid blue;
+    box-shadow: 5px 5px 3px;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+.choice {
+    margin-top: 4rem;
+}
+
+#rock, #paper, #scissors {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
