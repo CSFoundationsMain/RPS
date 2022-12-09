@@ -33,22 +33,30 @@ h1 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 2rem;
+    margin: 1rem 0 3rem;
 }
 
-.control {
+.card {
     border: 1px solid blue;
     box-shadow: 5px 5px 3px;
     border-radius: 1rem;
     padding: 1rem;
-    font-size: .8rem;
+    font-size: .7rem;
+}
+.choiceY, .choiceC, .results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 75%;
 }
 
-.choice {
-    margin-top: 4rem;
+#yourChoice, #computerChoice  {
+    font-size: 2.5rem;
 }
 
 #rock, #paper, #scissors {
-    font-size: 2.5rem;
+    font-size: 2rem;
     cursor: pointer;
 }
